@@ -1,0 +1,434 @@
+/*GENERAL*/
+.InvisibleHeading{
+    display: none;
+}
+body {
+    background-image: url(../img/BG_ffh_2.png);
+    background-repeat: no-repeat;
+    background-color: rgba(152, 66, 211, 0.63);
+    background-attachment:fixed;
+    background-size:cover;
+    margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+    overflow: scroll;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0px;
+    background-color: #671edd;
+    border-top: 10px solid #e3ed00;
+    width:100%;
+    height:30px; 
+    text-align:center;
+    font-family: 'Metal Mania', cursive;
+    color: #e3ed00;
+    font-size: 133%;
+}
+.footer{
+    bottom: 0;
+    margin-bottom: 0px;
+    background-color: #671edd;
+    border-top: 10px solid #e3ed00;
+    width:100%;
+    height:30px; 
+    text-align:center;
+    font-family: 'Metal Mania', cursive;
+    color: #e3ed00;
+    font-size: 133%;
+}
+h1{
+    color: #64e53c;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    font-size: 270%;
+}
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 30%;
+    max-width: 170px;
+    margin-bottom: 47px;
+    animation: zoomIn;
+    animation-duration: 1s;
+}  
+.button {
+    background-color: #671edd;
+    border-radius: 13px;
+    border-color: #e3ed00;
+    color: #e3ed00;
+    text-decoration: none;
+    font-size: 33px;
+    font-family: 'Metal Mania', cursive;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    animation: bounceInUp;
+    animation-duration: 1s;
+}
+button:hover {
+    background-color: #a03e00;
+}
+#SkullGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 100px;
+} 
+#SkullGif:hover{
+    filter: hue-rotate(90deg);
+}
+/*Hecho Con SCSS*/
+.social-box .container {
+    display: flex;
+    background-color: #90df09;
+    border: 17px outset #671edd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    min-height: 600px;
+    max-height: 444px;
+    padding: 100px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start; }
+  
+  .social-box .box1 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    max-height: 600px;
+    overflow: scroll;
+    order: 1;
+    width: 400px;
+    height: 600px;
+    color: #340073;
+    text-align: center;
+    font-family: 'Metal Mania';
+    font-size: 330%; }
+  
+  .social-box .box2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    max-height: 600px;
+    overflow: scroll;
+    order: 2;
+    width: 400px;
+    height: 600px;
+    color: #340073;
+    text-align: center;
+    font-family: 'Metal Mania';
+    font-size: 330%; }
+  
+  .sound-cloud-box .container {
+    width: 700px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-right: auto;
+    margin-left: auto; }
+    .sound-cloud-box .container p {
+      color: #90df09;
+      font-family: 'Metal Mania';
+      font-size: 130%; }
+  
+  .question-box {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 33px;
+    background-color: #340073;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: auto;
+    margin-right: auto; }
+    .question-box p {
+      color: #90df09;
+      font-family: 'Metal Mania';
+      font-size: 130%; }  
+/*SOCIAL MEDIA LINKS*/
+.social-media-links{
+    text-align:center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 111%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.social-media-links__text{
+    display:inline;
+    color: #e3ed00;
+    padding: 3px;
+}
+.social-media-links__text:hover{
+    display:inline;
+    color: #64e53c;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+/*MAIN MENU*/
+.header{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 5px;
+    width: 100%;
+}
+.header__logo{
+    width: 170%;
+    max-width: 300px;
+    animation: zoomIn;
+    animation-duration: 2s;
+}  
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Metal Mania';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #671edd;
+}
+a.menu {
+    color: #e3ed00;
+    padding:11px;
+    text-decoration: none;
+}
+a.menu:hover {
+    background-color: #a03e00;
+    font-size: larger;
+    transform: skew(17deg, 6deg);
+}
+/* TOUR TABLE*/
+.HeadingTourTable {
+    color: #64e53c;
+    font-family: 'Metal Mania';
+    font-size: 130%;
+}
+table,th,td{
+    border:3px solid #e3ed00;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    animation: zoomInRight;
+    animation-duration: 0.5s;
+}
+td{
+    font-family: 'Philosopher', sans-serif;
+    color: #ffffff;
+    font-size: 111%;
+}
+/*INDEX PRESS*/
+.PressBox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 21px;
+    margin-bottom: 11px;
+}
+/*M U S I C*/
+.music-box{
+    display: grid;
+    grid-template-areas:
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B A A A A A'
+    'B C C D D E';
+    grid-gap: 10px;
+    background: rgb(0,255,36);
+    background: linear-gradient(90deg, rgba(0,255,36,1) 0%, rgba(130,0,255,1) 100%);    
+    padding: 17px;
+    animation: jello;
+    animation-duration: 1s;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.music-box__youtube{ grid-area: A; }
+.music-box__lyrics{ grid-area: B;
+    text-align: center;
+    max-height: 444px;
+    min-width: 170px;
+    max-width: fit-content;
+    overflow:scroll;
+    font-family: 'Philosopher', sans-serif;
+    color: #000000;
+    font-size: 17px;
+    background-color: #e3ed00;
+}
+.music-box__applemusic{ grid-area: C; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.music-box__soundcloud{ grid-area: D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.music-box__spotify{ grid-area: E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.music-box__video{
+    min-width: 10px;
+    height: 100%;
+    width: 100%;
+}
+.music-box__icon{
+    width: 33px;
+}
+.music-box__icon:hover{
+    filter: hue-rotate(27deg);
+    transform: scale(1.5);
+
+}
+/*S T E M S*/
+.MailingList {
+    border: 17px outset #671edd;
+    background-color: #45e17d;    
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 9px;
+    animation: rollIn;
+    animation-duration: 0.5s;
+}
+/*M E R C H*/
+.merch-box{
+    display: flex;
+    background-color: #90DF0B;
+    border: 17px outset #671edd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    min-height: 600px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+}
+.merch-box__item1{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+}
+.merch-box__item2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 47px;
+    font-family: 'Metal Mania', cursive;
+    color: #671edd;
+}
+.merch-box__item2:hover{
+    background-color: #90DF0B;
+    color: #671edd;
+}
+/*S O C I A L */
+#SocialBox {
+    background-color: #e3ed00;
+    border: 17px outset #671edd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 30rem;
+    padding: 17px;
+    overflow: scroll;
+    animation: lightSpeedInLeft;
+    animation-duration: 1s;
+}
+/*A B O U T*/
+#AboutBox {
+    background-color: #9d2344;
+    border: 17px outset #671edd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 333px;
+    padding: 17px;
+    font-family: 'Philosopher', sans-serif;
+    color: #ffffff;
+    font-size: 111%;
+    overflow:scroll;
+    animation: flipInX;
+    animation-duration: 0.5s;
+}
+@media screen and (max-width: 1024px){
+#TableDiv{
+    max-height: 470px;
+    overflow: scroll;
+}
+.social-box .container {
+    flex-direction: column;
+}
+.footer{
+    position: relative;
+}
+}
+@media screen and (max-width: 450px){
+#TableDiv{
+    max-height: 666px;
+    overflow: scroll;
+}
+#SkullGif {
+    display: none;
+}
+.social-box .container {
+    flex-direction: column-reverse;
+}
+.footer{
+    position: relative;
+}
+}
