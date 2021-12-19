@@ -1,6 +1,7 @@
 /*GENERAL*/
 .InvisibleHeading{
     display: none;
+    margin: auto;
 }
 body {
     background-image: url(../img/BG_ffh_2.png);
@@ -97,7 +98,7 @@ button:hover {
     width: 70%;
     min-height: 600px;
     max-height: 444px;
-    padding: 100px;
+    padding: 17px;
     overflow: scroll;
     display: flex;
     flex-direction: row;
@@ -406,18 +407,38 @@ td{
     animation-duration: 0.5s;
 }
 @media screen and (max-width: 1024px){
+.sound-cloud-box .container{
+    display: none;
+}
 #TableDiv{
     max-height: 470px;
     overflow: scroll;
 }
-.social-box .container {
-    flex-direction: column;
-}
 .footer{
     position: relative;
 }
+.question-box{
+    display: none;
+}
+.merch-box{
+    width: 400px;
+    min-height: 400px;
+}
+.merch-box__item1{
+    display: none;
+}
+.social-box .container {
+    width: 400px;
+    padding: 0px;
+}
 }
 @media screen and (max-width: 450px){
+.sound-cloud-box .container{
+    display: none;
+}
+.question-box{
+    display: none;
+}
 #TableDiv{
     max-height: 666px;
     overflow: scroll;
@@ -425,10 +446,17 @@ td{
 #SkullGif {
     display: none;
 }
-.social-box .container {
-    flex-direction: column-reverse;
-}
 .footer{
     position: relative;
+}
+.merch-box{
+    width: 400px;
+    min-height: 400px;
+}
+.merch-box__item1{
+    display: none;
+}
+.social-box .container {
+    width: 400px;
 }
 }
